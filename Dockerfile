@@ -28,4 +28,4 @@ COPY install-composer.sh install-composer.sh
 
 RUN chmod +x install-composer.sh
 
-RUN install-composer.sh
+RUN ./install-composer.sh
