@@ -26,4 +26,4 @@ RUN mkdir -p /run/php/ /var/run/php/
 
 COPY install-composer.sh install-composer.sh
 
-RUN install-composer.sh
+RUN ./install-composer.sh
